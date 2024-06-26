@@ -1,0 +1,79 @@
+#main-sideBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100vh;
+    padding: 2em 2em;
+    background-color: rgb(30, 98, 75);
+    color: white;
+}
+#main-sideBar-title>span{
+    display: block;
+}
+#main-sideBar-title>span:nth-child(1){
+    font-size: 3em;
+}
+#main-sideBar-title>span:nth-child(2){
+    font-size: 2em;
+    font-style: italic;
+}
+#main-sideBar-subtitle{
+    margin-top: 4em;
+    font-family: sans-serif;
+    font-size: 1.4em;
+}
+#main-sideBar-menu{
+    margin-top: 4em;
+}
+#main-sideBar-menu>ul>li{
+    font-size: 1.2em;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* this is for the main page contents */
+.main-content{
+    float: right;
+    width: 70%;
+    padding: 2em;
+}
+.center-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-pic>img{
+    width: 50%; 
+    margin-bottom: 1.2em;
+}
+#feature-text{
+    margin-left: 1.2em;
+    font-size: 1.8em;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.main-block{
+    margin-bottom: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.main-block-title{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.main-block-date{
+    color: grey;
+    font-size: smaller;
+}
+.main-block-brief{
+    font-style: italic;
+}
+.main-block-brief>ul>li>p:first-child{
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+}

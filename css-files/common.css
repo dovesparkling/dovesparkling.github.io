@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+ul>li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none; 
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover{color: rgb(237, 202, 188);}
